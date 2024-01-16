@@ -52,7 +52,7 @@ onMounted(() => data.value[0].isOpened = true)
 </script>
 <template>
    <section
-      class=" relative flex flex-col gap-6 sDT:gap-8 w-full sDT:w-[58.6%] max-w-[400px] sDT:max-w-[720px] bg-neo-white mx-6 sDT:mx-0 p-6 sDT:p-10 text-neo-dark-purple font-work-sans rounded-lg sDT:rounded-2xl z-10">
+      class=" relative flex flex-col gap-6 sDT:gap-8 w-full sDT:w-[58.6%] max-w-[400px] sDT:max-w-[600px] bg-neo-white mx-6 sDT:mx-0 p-6 sDT:p-10 text-neo-dark-purple font-work-sans rounded-lg sDT:rounded-2xl z-10">
       <div class=" flex gap-6 select-none">
          <img :src="iconStar" alt="iconStar" class=" w-6 sDT:w-9">
          <h1 class=" text-[2rem] sDT:text-[3.5rem] leading-[2.375rem] sDT:leading-[4.125rem] font-bold">FAQs</h1>
