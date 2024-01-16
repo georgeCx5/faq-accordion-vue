@@ -18,7 +18,11 @@ export default {
       },
       screens: {
         'sDT': '1024px',
+      },
+      boxShadow: {
+        'accordion': '0px 32px 56px rgba(80, 0, 118, 0.1)',
       }
+
     },
   },
   plugins: [],
